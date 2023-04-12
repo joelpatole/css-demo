@@ -6,17 +6,16 @@
 
 .container{
     width: 100vw;
-    margin-top: 6.4rem;
+    margin-top: 4.0rem;
     position: relative;
     left: 50%;
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
-    margin-top: 10%;
-    background-color:#e8ebec;
+    background-color: #f7f9fa;
     width: 100%;
     height: 475px;
-    display: block;
+    display: inline-flexbox;
     gap : 0.5rem;
     flex-direction: row;
     box-sizing: border-box;
@@ -30,7 +29,7 @@
 }
 
 h2{
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     margin-left: 1rem;
 }
 
@@ -50,7 +49,7 @@ h2{
     height: 19rem;
     background-color: white;  
     display: block;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(213, 212, 212);
 }
 
 .playlogo-link{
@@ -66,7 +65,6 @@ h2{
     margin-top: 1rem;
     width: 2.5rem;
     height: 2.5rem;
-   
 }
 
 .para{
