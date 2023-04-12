@@ -138,14 +138,21 @@ h2{
     height: 2rem;
     align-items: center;
 }
-.playlogo-link p:hover{
+/* .playlogo-link p:hover{
    color: #351487;
+} */
+.playlogo-link:hover .link{
+    color: #351487;
+}
+.playlogo-link:hover .playlogo{
+    color: #351487;
 }
 .playlogo{
   margin-top:1rem;  
   width: 1rem;
   height: 1rem;
   margin-left: 1rem;
+  color: #5624d0;
 }
 
 .link{
@@ -168,6 +175,3 @@ h2{
 .link .third-link{
     margin-top: 0.5rem;
 }
-
-
-
