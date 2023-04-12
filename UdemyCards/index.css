@@ -50,7 +50,7 @@ h2{
     height: 19rem;
     background-color: white;  
     display: block;
-    border: 1px solid rgb(196, 192, 192);
+    border: 1px solid rgb(255, 255, 255);
 }
 
 .playlogo-link{
@@ -66,8 +66,6 @@ h2{
     margin-top: 1rem;
     width: 2.5rem;
     height: 2.5rem;
-    background-color: beige;
-    background-image: url('./doubleImage.png');
    
 }
 
@@ -153,11 +151,25 @@ h2{
 }
 
 .link{
-    font-size:medium;
-    margin-left: 3rem;
+    font-size: medium;
+    margin-left: 1rem;
     font-weight: 600;
-    margin-top: -1rem;
+    margin-top: 1rem;
     color: #5624d0;
 }
+
+.link-tag{
+    display: inline-flex;
+    height:20px;
+}
+
+.link-tag:hover{
+    color: #298714;
+}
+
+.link .third-link{
+    margin-top: 0.5rem;
+}
+
 
 
