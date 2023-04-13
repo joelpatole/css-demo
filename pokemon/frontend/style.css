@@ -1,0 +1,71 @@
+.container{
+    min-height: 100vh;
+    padding: 0 1rem;
+    gap: 2rem;
+}
+
+.card{
+    margin-top: 1rem;
+    height: 37rem;
+    box-shadow: 0 0 6px 5px #9072d1;
+    padding: 1rem;
+    border-radius: 5%;
+}
+
+.title{
+    text-align: center;
+    background-color: rgb(93, 31, 180);
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    font-family: monospace; 
+}
+
+.title h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.pokemon{
+    justify-content: space-between;
+    padding: 0.75rem 2.5rem;
+    border-radius: 0.5rem;
+    border: thin solid #562a95;
+}
+
+.pokemon:hover{
+    background-color: rgb(47, 3, 90);
+    cursor:grab;
+}
+
+.pokemon:hover > .pokemon-name p{
+  color: aliceblue;
+}
+
+.pokemons{
+    gap: 1rem;
+}
+
+.pokemon-name{
+    padding: 0%;
+    align-items: center;
+    font-weight: 800;
+    font-family: monospace;
+    height: 30px;
+    width: 80%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.pokemon-name p{
+   color: black;
+   font-size: 30px;
+
+}
+.pokemon{
+    justify-content: center;
+    background-color: rebeccapurple;
+    box-shadow: 0px 0px 4px 1px rebeccapurple;
+    border: none;
+}
